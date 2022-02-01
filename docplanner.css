@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: "roboto";
+    font-size: 15px;
+
+}
+
+li, a {
+    display:inline;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+nav{
+    display: inline-block;
+    
+    
+}
+
+.fa-star-of-life{
+color:#04c3a5;
+position: relative;
+left: 500px;
+bottom: 60px;
+}
+
+img{
+    width:250px;
+    height: 150px;
+   position: relative;
+   bottom: 50px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    /*
+   position: relative;
+    position: fixed;
+    */
+ 
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+}
+
+.firstcontainer{
+    display:flex;
+    max-width:1000px;
+    margin: 40px auto 0 auto;
+    line-height: 25px;
+    position: relative;
+    bottom: 40px;
+    
+}
+
+.firstcontainer p{
+    color: rgb(173,173,173);
+}
+
+.secondcontainers{
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+    line-height: 20px;
+    
+}
+
+@media (min-width: 768px){
+    .secondcontainers{
+    display: flex;
+    justify-content: space-between;
+    }
+}
+
+.secondcontainer{
+border-radius: 10px;
+padding: 50px;
+width: 20%;
+font-size: 20px;
+color: white;
+}
+
+
+.secondcontainer:nth-child(1){
+    background-color:#04c3a5;
+}
+.secondcontainer:nth-child(2){
+    background-color: #0392C3;
+}
+.secondcontainer:nth-child(3){
+    background-color: #042631;
+}
+
+.dropdown select{
+   position: relative;
+   top: 30px;
+   height: 30px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+
+.text{
+    color: #04c3a5;
+}
+
+.thirdcontainer{
+    display: flex;
+    max-width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+.middleclass{
+    display: grid;
+    grid-template-columns: 2fr 0.5fr 0.5fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: #BAFFFA;
+    padding: 50px;
+   height: 450px;
+}
+
+.middleclass-one{
+    position: relative;
+    top: 150px;
+}
+
+.firstgrid > div{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+}
+
+.secondgrid > div {
+    background-color: white;
+    width: 200px;
+    height:200px;
+    position: relative;
+    bottom: 30px;
+    border-radius: 10px;
+}
+
+.child:nth-child(1){
+    
+    padding: 10px;
+    text-align: center;
+}
+
+.child:nth-child(2){
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 28px;
+}
+
+.childs:nth-child(1){
+    padding: 10px;
+    text-align: center;
+}
+
+.childs:nth-child(2){
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top:0em;
+}
+
+.middleclass h2 {
+    color: #04c3a5;
+}
+
+.middleclass p{
+    color:#042631;
+}
+
+.improvetext{
+    text-align: center;
+}
+
+.improvetext p{
+    line-height: 10px;
+    color: #042631;
+    position: relative;
+    top:50px;
+    
+}
+
+.improvetext h2{
+    position: relative;
+    top: 40px;
+}
+
+.picturegallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px auto 0 auto;
+    padding: 150px;
+    width: 1000px;
+    height: 1200px;
+    
+}
+
+.picturegallery img{
+    border-radius: 5px;
+   height: 250px;
+   width: 300px;
+   box-shadow: 5px 10px 10px grey;
+   
+}
+
+.picturegallery button{
+    color: white;
+    background-color: #0392C3;
+    width: 100px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 10px;
+    position: relative;
+    right: 40px;
+    border:none;
+}
+
+.pictureframe{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 40px;
+}
+
+.interesting{
+    text-align: center;
+    position: relative;
+    bottom: 190px;
+}
+.interesting h2{
+    font-weight:lighter;
+    font-style:oblique;
+    font-size: 30px;
+}
+.interesting button{
+    color:white;
+    background-color: #0392C3;
+    border-radius: 5px;
+    padding: 8px;
+    border: none;
+}
+
+footer{
+    border-top: 1px solid #ababab;
+    color: #ababab;
+    font-size: 11px;
+}
+
+.footers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footers,p{
+    text-align: center;
+}
+.footerlinks a{
+    text-decoration: #1e81b0;
+    color:#1e81b0;
+}
+
+a:hover{
+    color: #04c3a5;;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #1e81b0;
+}
+
